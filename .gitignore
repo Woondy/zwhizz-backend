@@ -1,0 +1,43 @@
+# Build artifacts
+**/bin/
+**/obj/
+
+# Temporary generated files
+**/.vs/
+[Bb]in/
+[Dd]ebug/
+[Nn]uget/
+**/project.lock.json
+
+# Visual Studio specific files
+[Vv]sdoc/
+[Uu]serSecrets/
+
+# Test project results
+**/TestResults/
+
+# NuGet packages (managed in packages.config or Paket.lock)
+**/packages/
+
+# Analyzer and code coverage reports
+**/coverage/
+**/[Ff]ollow/[Uu]p/[Dd]own/
+
+# Dependency Metadata
+**/.NETCoreApp/
+
+# Ignore docker files from root directory (Optional, if using Docker)
+Dockerfile
+
+# ASP.NET Core publish output directory (Optional, if using publish for deployment)
+**/out/
+
+# Ignore logs (Optional)
+*.log
+
+# Ignore environment specific configuration files (Optional)
+*.secrets
+*.config
+
+# Ignore any local settings files (Optional)
+*.settings
